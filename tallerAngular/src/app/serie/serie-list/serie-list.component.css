@@ -1,0 +1,93 @@
+.page-wrapper {
+  min-height: 100vh;
+  background-color: white;
+}
+
+.top-bar {
+  height: 50px;
+  background-color: #25a6b8;
+  display: flex;
+  align-items: center;
+  padding-left: 14px;
+  color: #111;
+  font-size: 18px;
+}
+
+.logo-box {
+  background-color: #222;
+  color: #7dd957;
+  border: 2px solid #111;
+  width: 31px;
+  height: 31px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.title {
+  font-weight: 500;
+}
+
+table {
+  max-width: 650px;
+}
+
+th {
+  font-weight: 700;
+}
+
+.serie-row {
+  cursor: pointer;
+}
+
+.serie-name {
+  color: #0d6efd;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.serie-name:hover {
+  text-decoration: underline;
+}
+
+.average-text {
+  margin-top: 18px;
+  margin-left: 4px;
+  font-size: 18px;
+  color: #111;
+}
+
+.serie-card {
+  width: 100%;
+  max-width: 330px;
+  border: none;
+}
+
+.serie-card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.card-title {
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.card-text {
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.serie-link {
+  color: #111;
+  text-decoration: none;
+}
+
+.serie-link:hover {
+  color: #0d6efd;
+  text-decoration: underline;
+}
